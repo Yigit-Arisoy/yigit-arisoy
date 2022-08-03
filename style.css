@@ -217,13 +217,8 @@
 
 /* Mobile*/
 @media (max-width: 600px) {
-  .showcase::after {
-    height: 75vh;
-  }
-
-  .content {
-    top: 1%;
-    margin-top: 50px;
+  /* .content {
+    top: 2%;
   }
 
   .content .logo {
@@ -236,7 +231,7 @@
 
   .content .text {
     font-size: 1.3rem;
-  }
+  } */
 
   .grid-3,
   .grid-2 {
@@ -257,6 +252,7 @@
 
   .navbar {
     display: inline-flex;
+    position: absolute;
     z-index: 1;
     justify-content: center;
     width: 100%;
@@ -283,6 +279,7 @@
     margin: 0;
     text-align: center;
     font-size: 1.3rem;
+    width: 27%;
   }
 
   .showcase::after {
@@ -408,6 +405,7 @@
     text-align: center;
     margin: auto;
     max-width: 70%;
+    margin-top: 50px;
   }
 
   .intro-logo {
