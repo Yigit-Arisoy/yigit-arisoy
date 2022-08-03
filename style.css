@@ -170,7 +170,7 @@
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
     line-height: 1.5em;
   }
 
@@ -222,7 +222,7 @@
   }
 
   .content {
-    top: 5%;
+    top: 1%;
     margin-top: 50px;
   }
 
@@ -241,6 +241,9 @@
   .grid-3,
   .grid-2 {
     grid-template-columns: 1fr;
+  }
+
+  .grid-3-item {
     margin-bottom: 10px;
     margin-top: 10px;
   }
@@ -254,16 +257,10 @@
 
   .navbar {
     display: inline-flex;
-    position: absolute;
     z-index: 1;
     justify-content: center;
     width: 100%;
-    gap: 4rem;
-  }
-
-  .nav-item {
-    width: 5%;
-    min-width: 75px;
+    margin: auto;
   }
 
   a {
