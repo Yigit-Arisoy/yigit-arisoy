@@ -4,88 +4,112 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Yiğit Arısoy</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link href="http://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/2fb899777f.js" crossorigin="anonymous"></script>
+    <link href="http://fonts.cdnfonts.com/css/montserrat" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <header class="showcase">
-        <nav class="navbar">
+      <nav class="navbar">
+        <a href="" class="nav-item">Home</a>
+        <a href="" class="nav-item">Portfolio</a>
+        <a href="" class="nav-item">Contact</a>
+      </nav>
 
-                <a href="" class="nav-item">Home</a>
-                <a href="" class="nav-item">Portfolio</a>
-                <a href="" class="nav-item">Contact</a>
+      <div class="content">
+        <img src="./images/logo.png" alt="yigit_logo" class="logo" />
+        <div class="title">Welcome to my World</div>
 
-        </nav>
-
-        <div class="content">
-            <img src="./images/logo.png" alt="yigit_logo" class="logo">
-            <div class="title">
-                Welcome to my World
-            </div>
-
-            <div class="text">
-                I'm Yiğit
-            </div>
-
-        </div>
+        <div class="text">I'm Yiğit</div>
+      </div>
     </header>
 
-    <section class="socials ">
-        <div class="container grid-3 center">
-            <div class="reveal">
-                <i class="fab fa-linkedin fa-3x"></i>
-                <h3>LinkedIn</h3>
-                <p>You can reach me on my LinkedIn page for work inquries</p> 
-            </div>
-            <div class="reveal">
-                <i class="fab fa-youtube fa-3x"></i>
-                <h3>Youtube</h3>
-                <p>From guitar covers to games to coding tutorials I have it all!</p> 
-            </div>
 
-            <div class="reveal">
-                <i class="fab fa-twitch fa-3x"></i>
-                <h3>Twitch</h3>
-                <p>Check out my Twitch channel for live coding and gaming sessions!</p> 
-            </div>
+    <div class="main">
+      <i class="fa-solid fa-code fa-6x intro-logo reveal"></i>
+      <div class="intro reveal">
+        <p>I am an engineering student with a passion for software development, focusing on web and mobile technologies.</p>
+        <p>Check out some of my work in my <a href="portfolio.html" style= "font-weight:700">portfolio</a> section.</p>
+      </div>
+
+      <i class="fa-brands fa-html5 fa-7x skills-logo reveal"></i>
+      <div class="skills reveal">
+  
+        Some of the stuff I work with is:
+
+        <div class="skills-grid">
+          <ul id=skills-grid>
+            <li><p>▹</p>HTML</li>
+            <li><p>▹</p>CSS</li>
+            <li><p>▹</p>Javascript</li>
+            <li><p>▹</p>C#</li>
+            <li><p>▹</p>Python</li>
+            <li><p>▹</p>Java</li>
+          </ul>
         </div>
+      </div>
+    </div>
+    
+
+    
+
+    <section class="about bg-light">
+      <div class="container reveal">
+        <div class="grid-2">
+          <div class="center">
+            <i class="fas fa-laptop-code fa-10x"></i>
+          </div>
+
+          <div>
+            <h3>About me</h3>
+            <p>
+              under construction
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="about bg-light ">
-        <div class="container reveal">
-            <div class="grid-2">
-                <div class="center">
-                    <i class="fas fa-laptop-code fa-10x"></i>
-                </div>
-
-                <div>
-                    <h3>About me</h3>
-                <p>I am a junior software engineer working on web and mobile technologies, with a focus on frontend.</p>
-                </div>
-                
-            </div>
+    <section class="socials">
+      <div class="container grid-3 center">
+        <div class="reveal">
+          <i class="fab fa-linkedin fa-3x"></i>
+          <h3>LinkedIn</h3>
+          
         </div>
+        <div class="reveal">
+          <i class="fab fa-youtube fa-3x"></i>
+          <h3>Youtube</h3>
+          
+        </div>
+
+        <div class="reveal">
+          <i class="fab fa-twitch fa-3x"></i>
+          <h3>Twitch</h3>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="grad" style="color: cornsilk">
+      <hr style="margin-top: 40px;" />
+      <p">Graduation Countdown</p>
+        <div id="countdown"></div>
+        <hr />
     </section>
 
     <footer class="center bg-dark">
-        <p>Yiğit Arısoy &copy; 2022</p>
+      <p>Yiğit Arısoy &copy; 2022</p>
     </footer>
 
-
     <script src="main.js" async defer></script>
-</body>
-
+  </body>
 </html>
