@@ -174,9 +174,9 @@
     line-height: 1.5em;
   }
 
-  .grid-3 {
+  .grid-5 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 20px;
   }
 
@@ -233,12 +233,38 @@
     font-size: 1.3rem;
   } */
 
-  .grid-3,
+  .grid-5 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .git {
+    grid-column: 1 / 3;
+  }
+
+  .lin {
+    grid-column: 3 / 5;
+  }
+
+  .you {
+    grid-column: 5 / 7;
+  }
+
+  .twi {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+  }
+
+  .ins {
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+  }
+
   .grid-2 {
     grid-template-columns: 1fr;
   }
-
-  .grid-3-item {
+  .grid-5-item {
     margin-bottom: 10px;
     margin-top: 10px;
   }
